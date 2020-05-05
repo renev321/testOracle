@@ -1,0 +1,7 @@
+create or replace FUNCTION allways_true_repo
+           (p NUMBER) 
+          RETURN varchar
+          IS
+          BEGIN
+              RETURN 'true';
+          END allways_true;
